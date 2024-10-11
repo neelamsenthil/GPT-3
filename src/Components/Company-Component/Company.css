@@ -1,0 +1,23 @@
+.company{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+.company img{
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+.company img:hover{
+    transform: scale(1.2);
+}
+@media (max-width:750px){
+    .company{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .company img{
+        width: 100px;
+    }
+}

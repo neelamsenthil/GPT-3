@@ -1,0 +1,173 @@
+
+.nav-container{
+    position: sticky;
+    top: 0px;
+}
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 30px;
+
+
+}
+.nav-content{
+    display: flex;
+}
+.nav_icon img{
+    width: 70px;
+}
+.nav_icon{
+    display: none;
+    cursor: pointer;
+}
+.nav-content ul{
+    /* position: fixed; */
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 30px;
+    align-items: center;
+}
+.nav-content ul a{
+    text-decoration: none;
+    color: white;
+}
+.nav-content ul li{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-btn{
+    max-width: 30%;
+}
+.nav-btn button{
+    padding: 10px ;
+    font-size: 18px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    background-color: rgb(216, 60, 4);
+
+
+}
+
+
+.menu{
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0,0.8);
+    width: 300px;
+    height: 100%;
+
+}
+.menu-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 60px 0px;
+}
+.menu-img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.menu-img img{
+    width: 35px;
+    cursor: pointer;
+}
+.menu-content ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+
+}
+.menu-content ul a{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 60%, rgba(252,176,69,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+.menu-content button{
+    padding: 7px ;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+
+}
+.menu-content button:hover{
+    background-color: rgb(216, 60, 4);
+
+
+}
+
+
+@media (max-width:900px){
+    .nav-content ul li{
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .nav-btn button{
+        font-size: 16px;
+        padding: 7px;
+    }
+    
+
+}
+
+@media (max-width:765px){
+    .nav-content ul{
+        gap: 20px;
+    }
+    .nav-content ul li{
+        font-size: 14px;
+    }
+    .nav-btn button{
+        font-size: 16px;
+        padding: 7px;
+    }
+    
+
+}
+
+@media (max-width:725px){
+    .nav-content ul{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav_icon{
+        display: block;
+    }
+
+}
+
+

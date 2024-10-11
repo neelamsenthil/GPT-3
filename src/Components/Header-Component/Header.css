@@ -1,0 +1,136 @@
+
+.header{
+    display: flex;
+}
+.header-right img{
+    width: 630px;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 45px;
+    
+}
+.header-left span{
+    font-size: 4em;
+    font-weight: 900;
+    background-image:linear-gradient(90deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 60%, rgba(252,176,69,1) 100%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.header-para{
+    max-width: 70%;
+    margin-top: 25px;
+}
+.header-para p{
+    font-weight: 500;
+    color: rgb(192, 188, 188);
+}
+.header-input{
+    display: flex;
+    max-width: 400px;
+    background-color: rgb(29, 40, 106);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.header-input input{
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    
+
+}
+.header-input button{
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.header-input button:hover{
+    background-color: rgb(216, 60, 4);
+
+
+}
+.header-people{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+.header-people p{
+    color: whitesmoke;
+}
+
+@media (max-width:1120px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 50px;
+    }
+    .header-right{
+        margin-left: 40px;
+    }
+    .header-right img{
+        width: 600px;
+    }
+
+}
+
+@media (max-width:725px){
+    .header-right img{
+        width: 500px;
+    }
+
+
+}
+@media (max-width:600px){
+    .header-right img{
+        width: 400px;
+    }
+    .header-people img{
+        width: 120px;
+    }
+    .header-people p{
+        font-size:14px;
+        width: 300px;
+    }
+
+
+}
+
+
+
+@media (max-width:500px){
+    .header-right img{
+        width: 380px;
+    }
+
+    .header-left span{
+        font-size: 3em;
+    }
+    .header-input{
+        max-width: 300px;
+    }
+    .header-input input{
+        padding: 5px;
+    }
+    .header-input button{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+
+}

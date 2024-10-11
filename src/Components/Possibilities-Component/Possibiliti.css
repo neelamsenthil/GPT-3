@@ -1,0 +1,80 @@
+
+.possibilities{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 45px;
+}
+
+
+
+
+.possibilities-img img{
+    width: 650px;
+}
+.possibilities-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+.possibilities-text1 p{
+    color: rgb(15, 222, 222);
+
+}
+.possibilities-text2 h2{
+    font-size: 2.5em;
+    background-image:linear-gradient(90deg, rgba(131,58,180,1) 10%, rgba(253,29,29,1) 60%, rgba(252,176,69,1) 100%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.possibilities-text3{
+    
+    color: rgb(97, 158, 219);
+}
+.possibilities-text4{
+    color: rgb(246, 114, 66);
+
+}
+
+@media(max-width:1000px){
+    .possibilities{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media(max-width:700px){
+    .possibilities-img img{
+        width: 550px;
+    }
+}
+@media(max-width:600px){
+    .possibilities-img img{
+        width: 500px;
+    }
+}
+@media(max-width:550px){
+    .possibilities-img img{
+        width: 450px;
+    }
+    .possibilities-text1 p{
+        font-size: 15px;
+    }
+    .possibilities-text2 h2{
+        font-size: 2em;
+    }
+    .possibilities-text3 p{
+        font-size: 14px;
+    }
+    .possibilities-text4{
+        font-size: 15px;
+    }
+}
+@media(max-width:500px){
+    .possibilities-img img{
+        width: 400px;
+    }
+}
