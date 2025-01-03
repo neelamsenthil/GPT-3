@@ -4,6 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
+      <hr />
       <div className="footer-container">
         <div className="footer-top">
           <h1>Do you want to step in to the </h1>

@@ -16,9 +16,9 @@ padding: 40px 40px;
 
 }
 
-.gpt-QandA h1{
+/* .gpt-QandA h1{
     
-}
+} */
 .gpt-QandA p{
     width: 600px;
     color: rgb(222, 214, 214);
@@ -89,3 +89,41 @@ padding: 40px 40px;
     }
 
 }
+
+@media(max-width:400px){
+    .gpt-QandA p{
+        width: 200px;
+        font-size: 14px;
+        
+    }
+    .gpt-library-heading h2{
+        font-size: 1.5em;
+
+    } 
+    .bot h4{
+        font-size: 1em;
+    
+    }
+    .bot p{
+        margin-top: 20px;
+        font-size: 14px;
+        width: 150px;
+    }
+    .gpt-container{
+        margin: 50px 0px;
+        margin-left: 20px;
+    }
+    
+    .gpt-content{
+        /* background: rgb(49,61,128); */
+    background: linear-gradient(90deg, rgba(49,61,128,1) 43%, rgba(81,158,196,1) 100%);
+    padding: 40px 40px;
+    
+    }
+    
+    
+    
+
+
+}
+

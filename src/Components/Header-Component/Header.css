@@ -134,3 +134,10 @@
 
 
 }
+
+@media (max-width:500px){
+    .header-right img{
+        width: 320px;
+    }
+
+}

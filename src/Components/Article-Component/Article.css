@@ -41,3 +41,13 @@
     }
 
 }
+
+@media(max-width:400px){
+    .article-img img{
+        width: 280px;
+    }
+    .article-text{
+        width: 280px;
+    }
+
+}

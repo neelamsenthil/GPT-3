@@ -78,3 +78,9 @@
         width: 400px;
     }
 }
+
+@media(max-width:500px){
+    .possibilities-img img{
+        width: 380px;
+    }
+}

@@ -6,7 +6,7 @@ import menu from '../../assets/menu.png'
 import cross from '../../assets/cross.png'
 
 const Nav = () => {
-  const { setShowLogin,showNavMenu,setShowNavMenu } = useContext(inputContext)
+  const { setShowLogin, showNavMenu, setShowNavMenu } = useContext(inputContext)
   return (
     <div className="nav-container">
       <div className='nav'>
@@ -24,7 +24,7 @@ const Nav = () => {
 
         </div>
         <div className="nav_icon">
-          <img onClick={()=>setShowNavMenu(true)} src={menu} alt="" />
+          <img onClick={() => setShowNavMenu(true)} src={menu} alt="" />
         </div>
         <div className="nav-btn">
           <button onClick={() => setShowLogin(true)}>Sign up</button>
@@ -35,17 +35,17 @@ const Nav = () => {
       {showNavMenu ? <div className="menu">
         <div className="menu-content">
           <div className="menu-img">
-          <img onClick={()=>setShowNavMenu(false)} src={cross} alt="" />
+            <img onClick={() => setShowNavMenu(false)} src={cross} alt="" />
           </div>
 
-        <ul>
-          <li><Link to={'/'}>Home</Link></li>
-          <a href="#whatisgpt"> <li>What is GPT?</li></a>
-          <a href="#future"><li>Case studies</li></a>
-          <a href="#possibilities"><li>Open AI</li></a>
-          <a href="#article"><li>Library</li></a>
+          <ul>
+            <li><Link to={'/'}>Home</Link></li>
+            <a href="#whatisgpt"> <li>What is GPT?</li></a>
+            <a href="#future"><li>Case studies</li></a>
+            <a href="#possibilities"><li>Open AI</li></a>
+            <a href="#article"><li>Library</li></a>
 
-        </ul>
+          </ul>
           <button onClick={() => setShowLogin(true)}>Sign up</button>
 
 
